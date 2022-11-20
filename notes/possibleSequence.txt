@@ -1,8 +1,0 @@
-so how this will work:
->go onto website
->find piece of clothing
-	ability to search a website-maybe writing a script?
->put link into thing
->have thing get information from page-how would information be taken from a page?
->have thing search through internet to find matching thing-how would I get something to search the internet?
->print the thing
