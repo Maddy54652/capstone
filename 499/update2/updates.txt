@@ -1,0 +1,4 @@
+Current updates:
+>change variable "myNameIsURL" to "URLtoObtain" to make code cleaner
+>added a header variable which got the web page to become archived
+>removed links referenced for this project from the file itself into its own bibliography file
