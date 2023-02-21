@@ -1,23 +1,22 @@
+from email import header
 from bs4 import BeautifulSoup
 import requests
 import re
 
-#helpful link:  https://www.geeksforgeeks.org/beautifulsoup-scraping-link-from-html/
-#https://www.w3schools.com/python/python_file_write.asp
-#https://proxyway.com/knowledge-base/how-to-find-element-by-id-using-beautifulsoup
+
 
 #make a thing to get all links
 
-
+headers = {'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36'}
 #obtain url
-myNameisURL = "https://www.doenetwork.org/uid-geo-us-males.php"
+URLtoObtain = "https://www.doenetwork.org/uid-geo-us-males.php"
 
 #getting the html
-myHumblestOfRequests = requests.get(myNameisURL)
-imGonnaGechu = myHumblestOfRequests.text
+myHumblestOfRequests = requests.get(URLtoObtain,headers = headers)
+fileText = myHumblestOfRequests.text
 
-f = open("test.php", "w")
-f.write(imGonnaGechu)
+f = open("test.html", "w")
+f.write(fileText)
 f.close()
 
 
