@@ -3,3 +3,6 @@ https://www.geeksforgeeks.org/beautifulsoup-scraping-link-from-html/
 https://www.w3schools.com/python/python_file_write.asp
 https://proxyway.com/knowledge-base/how-to-find-element-by-id-using-beautifulsoup
 https://stackoverflow.com/questions/64448236/how-to-solve-the-error-of-not-acceptable-result-while-trying-fetch-html-conten
+https://flexiple.com/python/python-print-list/
+https://stackoverflow.com/questions/60342987/what-is-the-return-type-of-the-find-all-method-in-beautiful-soup
+https://stackoverflow.com/questions/9947957/python-beautifulsoup-searching-a-tag
